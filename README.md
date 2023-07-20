@@ -1,10 +1,10 @@
 # ✨ Portfolio TCPRO-Final Project (Responsive) ✨ 
 *Tecnolochicas PRO final project on a web page using Bootstrap, html, CSS and JavaScript adaptable to devices of different sizes (known in English as "responsive").*
 
-# Purpose
+# 💦 Purpose 💦
 *The purpose of this web page is to show the portfolio of projects of a professional in this case of database. It includes a brief description of motivation, the experience she has, projects, testimonials and ways to contact her.*
 
-# components
+# ⚡ components ⚡
 * nav: It is a container for navigation links, which are supposed to provide ways to access sections of the website, as well as external documents. Links within this element are assumed to be for a main navigation block only.
 * section: Represents a generic section of a document. It is used to determine which content corresponds to which part of a schema.
 * span: It is a generic inline container element. Span tags typically wrap sections of text for styling purposes or to add attributes to a section of text without creating a new line of content.
@@ -17,24 +17,37 @@ carousel: It's a slideshow to scroll through a series of content, created with 3
 * let: The let statement declares a local scope variable with block scope, which can optionally be initialized with some value.
 * typewriter: A simple yet powerful native javascript plugin for a cool typewriter effect.
 
-# Tools:
+# 🍀 Tools 🍀
 * Images for the web page
 * Google
 * Visual Studio Code
 * Color palette
 
-# Web page display
-*Main Part (Nav)*
+# ❗ Web page display ❗
+*Main Part (Nav):*
 
-*About me*
+![Main Part](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/Captura1.PNG)
 
-*Experience*
+![Main Part](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura2.PNG)
 
-*My projects*
+*About me:*
 
-*My testimonials*
+![About me](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura3.PNG)
 
-*Contactos (footer)*
+*Experience:*
 
+![Experience](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura4.PNG)
 
+*My projects:*
+
+![My projects](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura5.PNG)
+
+*My testimonials:*
+
+![My testimonials](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura6.PNG)
+
+*contacts (footer):*
+![contacts](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura6.PNG)
+
+The text of the web page is written in Spanish, as are the custom classes and attributes. Bootstrap related classes were included in English.
 
