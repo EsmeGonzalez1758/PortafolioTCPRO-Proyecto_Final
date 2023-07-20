@@ -44,7 +44,6 @@ carousel: It's a slideshow to scroll through a series of content, created with 3
 
 *My testimonials:*
 
-![My testimonials](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura6.PNG)
 
 *contacts (footer):*
 ![contacts](https://github.com/EsmeGonzalez1758/PortafolioTCPRO-Proyecto_Final/blob/3ff174fb113c0d388d3a999a31a7a353e473f066/imagenes/captura6.PNG)
