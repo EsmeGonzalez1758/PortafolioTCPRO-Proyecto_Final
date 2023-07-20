@@ -26,6 +26,8 @@ carousel: It's a slideshow to scroll through a series of content, created with 3
 # Web page display
 *Main Part (Nav)*
 
+*About me*
+
 *Experience*
 
 *My projects*
