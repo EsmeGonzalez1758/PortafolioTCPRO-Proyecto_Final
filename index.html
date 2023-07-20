@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>EsmeGonzalez | IA y algo mas </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Ingeniera.png" alt="Foto de Jane Doe">
+        <h1>Hola, soy Esmeralda Gonzalez</h1>
+        <!--<h2>hola.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://www.connecting-software.com/wp-content/uploads/2018/04/how-it-works-opt.gif" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Esme Gonzalez</h2>
+        <p class="seccion-texto">Crea y diseña,base de datos que dan solucion a la administracion de datos de empresas, instituciones publicas y privadas, y de la educacion.
+        Con el objetivo de proporcionar informacion clara y precisa cuando estas la requieran. Impulsada por el Tecnologico de Estudios Superiores de Chimalhuacan,desarrolla estas habilidades
+        y las pone en practica para ser una ingeniera en sistemas computacionales.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-clipboard-data-fill"></i>
+            <p class="experiencia-titulo">Analisis de datos</p>
+            <p>Introduccion, para el planteamiento del problema y analisis para su estudio. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">Entidad-Relacion</span>
+              <span class="badge text-bg-success">Entidad Relacion extendido</span>
+              <span class="badge text-bg-success">Tipo de datos</span>
+              <span class="badge text-bg-success">Diccionario de datos</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-bar-chart-steps"></i>
+            <p class="experiencia-titulo"><b>SQL y algo mas</b></p>
+            <p>Desarrollo e implementacion de lenguajes de desarrollo para las bases de datos. El mas conocido SQL, entre otros.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">SQL</span>
+              <span class="badge text-bg-success">Oracle</span>
+              <span class="badge text-bg-success">Linux, entre otras</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-folder-fill"></i>
+            <p class="experiencia-titulo">Recursos</p>
+            <p>Sofware, bibliotecas de sintaxis, blogs de estudio que te ayudaran a comprender mejor el desarrollo de una base de datos.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">Sitios oficiales</span>
+              <span class="badge text-bg-success">Tutoriales</span>
+              <span class="badge text-bg-success">Noticias</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos creados</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que eh realizado en la actualidad</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Axolotes.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Axolotilandia</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/EsmeGonzalez1758/Axolotes.git/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://axoloteslindos.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Google.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clonacion de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/EsmeGonzalez1758/Clon-de-Google.git/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://googlefine.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Biblioteca.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Biblioteca</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/EsmeGonzalez1758/Biblioteca.git/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Camiseta.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Tienda de Camisetas</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/EsmeGonzalez1758/Tienda_de_Camisetas.git/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Registro_Login.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p> Crud de registro y Login</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/EsmeGonzalez1758/Registro_Login.git/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Radio.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/EsmeGonzalez1758/Radio.git/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/EsmeGonzalez1758?tab=repositories/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos comentarios publicados por personas que visitan mi web</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://i.pinimg.com/originals/11/df/2b/11df2bc889722dab6946142dc9c70151.gif" alt="Foto de Gino">
+              <p class="testimonio-texto">Como profesional en el área de tecnología, siempre había tenido un conocimiento básico de bases de datos, pero quería profundizar mis habilidades. Me encontré con una web como lo es Esme Gonzalez que explica temas de bases de datos que se adaptaba a mi apretada agenda de trabajo y decidí probarlo. Estaba un poco escéptico al principio, ya que no sabía si un curso corto realmente podría cubrir suficiente contenido.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Bryan Cortazar</p>
+                <p class="cargo">Ingeniero en informatica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://i.pinimg.com/564x/ba/f8/63/baf8638ec0a8c1eb5421f41765e21ee6.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lo que más me gustó fue la flexibilidad del aprendizaje. Podía estudiar en mi propio horario y avanzar a mi ritmo. Al finalizar el curso, me sentí más seguro en mi capacidad para manejar bases de datos y pude aplicar lo aprendido en mi trabajo diario.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Tania Gomez</p>
+                <p class="cargo">Gerente de desarrollo de Oracle</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://i.pinimg.com/originals/66/cb/74/66cb744dc96aced7b6eb7b1b218d0cac.gif" alt="Foto de Leonardo">
+              <p class="testimonio-texto">superó mis expectativas y lo recomendaría a cualquiera que quiera mejorar sus habilidades en bases de datos sin comprometer demasiado tiempo. Fue una inversión valiosa en mi desarrollo profesional.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Regina Perez</p>
+                <p class="cargo">Estudiante de Administracion de Empresas Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¿Quieres saber más?
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¡Conoceme! Te invito a desarrollar tu intelecto para el desarrollo de base de datos 
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://www.facebook.com/esme.gonzalez.338658?mibextid=ZbWKwL">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">El arte es vida, el arte es cultura.<br>De ti depende crearlo.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/EG32550980" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/EsmeGonzalez1758" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/esmeralda-imelda-arrieta-gonzalez-27b78b283/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/e.g1802/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:imeldaeg2017@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Arrieta González Esmeralda Imelda (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
